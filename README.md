@@ -7,7 +7,7 @@ OpenCore Bootloader boots in Hyper-V and will select installer. macOS installer 
 
 
 ## *** NOTICE ***
-### You may experience occasional sluggishness in the OS. This is due to a lack of full graphics acceleration. Please do not file an issue on this as it is a known issue. 
+### I will post the EFI and instructions once the project is in s a state where it can load the kernel. Thank you for your patience while I work through the initial issues. 
 
 ## Hyper-V Recommended Settings:
 
