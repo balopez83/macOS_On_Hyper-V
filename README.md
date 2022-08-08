@@ -1,11 +1,9 @@
 # macOS on Hyper-V
 This repository aims to provide support for macOS on Hyper-V
 
-## Coming Soon
+## Current State:
 
-Initial support for macOS version 10.15.7 and above in-progress.
-
-If you see anything that could be added or changed don't hesitate to make a pull request.
+OpenCore Bootloader boots in Hyper-V and will select installer. macOS installer fails at early boot and will not yet begin loading the kernel. 
 
 
 ## *** NOTICE ***
@@ -37,7 +35,8 @@ If you see anything that could be added or changed don't hesitate to make a pull
 
 ## What works 
 
-- Nothing
+- OpenCore Bootloader
+- Nothing Else
 
 
 
