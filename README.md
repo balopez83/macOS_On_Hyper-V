@@ -5,6 +5,17 @@ This repository aims to provide support for macOS on Hyper-V
 
 OpenCore Bootloader boots in Hyper-V and will select installer. macOS installer fails at early boot and will not yet begin loading the kernel. 
 
+- [x] Getting OpenCore Bootloader to boot in Hyper-V
+- [ ] Get OpenCore/Hyper-V to correctly detect different macOS installers regardless of location or type (online/offline)
+- [ ] Opencore boot of macOS installer and begin to load macOS kernel
+- [ ] Successfully load macOS installer and install macOS to Hyper-V
+- [ ] Successfully load macOS on Hyper-V
+- [ ] Keyboard Support
+- [ ] Trackpad Support
+- [ ] Touchscreen Support
+- [ ] Audio Support
+- [ ] Power Management Support
+- [ ] Graphics Acceleration Support
 
 ## *** NOTICE ***
 ### I will post the EFI and instructions once the project is in s a state where it can load the kernel. Thank you for your patience while I work through the initial issues. 
