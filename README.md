@@ -5,10 +5,10 @@ This repository aims to provide support for macOS on Hyper-V
 
 OpenCore Bootloader boots in Hyper-V and will now boot macOS Big Sur Installer. 
 
-- [X] Getting OpenCore Bootloader to boot in Hyper-V
-- [X] Get OpenCore/Hyper-V to correctly detect different macOS installers regardless of location or type (online/offline)
-- [X] Opencore boot of macOS installer and begin to load macOS kernel
-- [X] Successfully load any macOS installer version and install macOS to Hyper-V
+- [X] ~~Getting OpenCore Bootloader to boot in Hyper-V~~
+- [X] ~~Get OpenCore/Hyper-V to correctly detect different macOS installers regardless of location or type (online/offline)~~
+- [X] ~~Opencore boot of macOS installer and begin to load macOS kernel~~
+- [X] ~~Successfully load any macOS installer version begin to install macOS to Hyper-V~~
 - [ ] Install and run macOS 10.4 - 10.6 in 32bit mode
 - [ ] Install and run macOS 10.7 - 10.12
 - [ ] Install and run macOS 10.13
@@ -17,15 +17,15 @@ OpenCore Bootloader boots in Hyper-V and will now boot macOS Big Sur Installer.
 - [ ] Install and run macOS 11
 - [ ] Install and run macOS 12
 - [ ] Successfully load any macOS version to desktop on Hyper-V
-- [X] Keyboard Support
-- [X] Trackpad Support
-- [X] Touchscreen Support
+- [X] ~~Keyboard Support~~
+- [X] ~~Trackpad Support~~
+- [X] ~~Touchscreen Support~~
 - [ ] Audio Support
 - [ ] Power Management Support
 - [ ] Graphics Acceleration Support
 
 ## *** NOTICE ***
-### Initial support for macOS 11 Big Sur has been completed. Guide and support files will be posted as soon as I can.
+### Initial support for macOS 11 Big Sur is nearing. Guide and support files will be posted as soon as I can squish a few more bugs.
 ### CPU spoofing required if host machine has a CPU not supported by the version of macOS that you are installing. For example; if you have an 11th gen Intel or newer you would need to spoof the 10th gen to boot. Since I have an 11th gen intel I am testing on, this spoof is already added and others may need to remove this or may have some issues. 
 
 ## Hyper-V Recommended Settings:
@@ -55,7 +55,9 @@ OpenCore Bootloader boots in Hyper-V and will now boot macOS Big Sur Installer.
 ## What works 
 
 - OpenCore Bootloader
-- Nothing Else
+- Trackpad
+- TouchScreen / Stylus (Hyper-v passes as mouse input)
+- Support for macOS 11 Big Sur Installation (buggy)
 
 
 
@@ -71,8 +73,6 @@ OpenCore Bootloader boots in Hyper-V and will now boot macOS Big Sur Installer.
 - SDcard
 - USB
 - Battery
-- Trackpad
-- TouchScreen / Stylus
 - Recovery
 - FileVault
 - Bluetooth
