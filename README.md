@@ -3,22 +3,30 @@ This repository aims to provide support for macOS on Hyper-V
 
 ## Current State:
 
-OpenCore Bootloader boots in Hyper-V and will select installer. macOS installer fails at early boot and will not yet begin loading the kernel. 
+OpenCore Bootloader boots in Hyper-V and will now boot macOS Big Sur Installer. 
 
-- [x] Getting OpenCore Bootloader to boot in Hyper-V
-- [ ] Get OpenCore/Hyper-V to correctly detect different macOS installers regardless of location or type (online/offline)
-- [ ] Opencore boot of macOS installer and begin to load macOS kernel
-- [ ] Successfully load macOS installer and install macOS to Hyper-V
-- [ ] Successfully load macOS on Hyper-V
-- [ ] Keyboard Support
-- [ ] Trackpad Support
-- [ ] Touchscreen Support
+- [X] Getting OpenCore Bootloader to boot in Hyper-V
+- [X] Get OpenCore/Hyper-V to correctly detect different macOS installers regardless of location or type (online/offline)
+- [X] Opencore boot of macOS installer and begin to load macOS kernel
+- [X] Successfully load any macOS installer version and install macOS to Hyper-V
+- [ ] Install and run macOS 10.4 - 10.6 in 32bit mode
+- [ ] Install and run macOS 10.7 - 10.12
+- [ ] Install and run macOS 10.13
+- [ ] Install and run macOS 10.14
+- [ ] Install and run macOS 10.15
+- [ ] Install and run macOS 11
+- [ ] Install and run macOS 12
+- [ ] Successfully load any macOS version to desktop on Hyper-V
+- [X] Keyboard Support
+- [X] Trackpad Support
+- [X] Touchscreen Support
 - [ ] Audio Support
 - [ ] Power Management Support
 - [ ] Graphics Acceleration Support
 
 ## *** NOTICE ***
-### I will post the EFI and instructions once the project is in s a state where it can load the kernel. Thank you for your patience while I work through the initial issues. 
+### Initial support for macOS 11 Big Sur has been completed. Guide and support files will be posted as soon as I can.
+### CPU spoofing required if host machine has a CPU not supported by the version of macOS that you are installing. For example; if you have an 11th gen Intel or newer you would need to spoof the 10th gen to boot. Since I have an 11th gen intel I am testing on, this spoof is already added and others may need to remove this or may have some issues. 
 
 ## Hyper-V Recommended Settings:
 
