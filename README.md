@@ -3,7 +3,7 @@ This repository aims to provide support for macOS on Hyper-V
 
 ## Current State:
 
-OpenCore Bootloader boots in Hyper-V and will now boot macOS Big Sur Installer. 
+OpenCore Bootloader boots in Hyper-V and will now boot macOS Installers. 
 
 - [X] ~~Getting OpenCore Bootloader to boot in Hyper-V~~
 - [X] ~~Get OpenCore/Hyper-V to correctly detect different macOS installers regardless of location or type (online/offline)~~
