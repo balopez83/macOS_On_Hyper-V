@@ -11,12 +11,12 @@ OpenCore Bootloader boots in Hyper-V and will now boot macOS Big Sur Installer.
 - [X] ~~Successfully load any macOS installer version begin to install macOS to Hyper-V~~
 - [ ] Install and run macOS 10.4 - 10.6 in 32bit mode
 - [ ] Install and run macOS 10.7 - 10.12
-- [X] Install and run macOS 10.13
-- [X] Install and run macOS 10.14
-- [X] Install and run macOS 10.15
-- [X] Install and run macOS 11
+- [X] ~~Install and run macOS 10.13~~
+- [X] ~~Install and run macOS 10.14~~
+- [X] ~~Install and run macOS 10.15~~
+- [X] ~~Install and run macOS 11~~
 - [ ] Install and run macOS 12
-- [X] Successfully load any macOS version to desktop on Hyper-V
+- [X] ~~Successfully load any macOS version to desktop on Hyper-V~~
 - [X] ~~Keyboard Support~~
 - [X] ~~Trackpad Support~~
 - [X] ~~Touchscreen Support~~
