@@ -5,10 +5,6 @@ This repository aims to provide support for macOS on Hyper-V
 
 OpenCore Bootloader boots in Hyper-V and will now boot macOS Installers. 
 
-- [X] ~~Getting OpenCore Bootloader to boot in Hyper-V~~
-- [X] ~~Get OpenCore/Hyper-V to correctly detect different macOS installers regardless of location or type (online/offline)~~
-- [X] ~~Opencore boot of macOS installer and begin to load macOS kernel~~
-- [X] ~~Successfully load any macOS installer version begin to install macOS to Hyper-V~~
 - [ ] Install and run macOS 10.4 - 10.6 in 32bit mode
 - [ ] Install and run macOS 10.7 - 10.12
 - [X] ~~Install and run macOS 10.13~~
@@ -16,7 +12,7 @@ OpenCore Bootloader boots in Hyper-V and will now boot macOS Installers.
 - [X] ~~Install and run macOS 10.15~~
 - [X] ~~Install and run macOS 11~~
 - [ ] Install and run macOS 12
-- [X] ~~Successfully load any macOS version to desktop on Hyper-V~~
+- [ ] Install and run macOS 13 (After Release)
 - [X] ~~Keyboard Support~~
 - [X] ~~Trackpad Support~~
 - [X] ~~Touchscreen Support~~
@@ -45,7 +41,7 @@ OpenCore Bootloader boots in Hyper-V and will now boot macOS Installers.
 
 ## Instruction Guides
 
-### [Chapter 1) Quick Start Install]
+### [Chapter 1) Installation Guide]
 ### [Chapter 2) Quirks & Fixes]
 ### [Chapter 3) Additional Drivers]
 
@@ -58,25 +54,23 @@ OpenCore Bootloader boots in Hyper-V and will now boot macOS Installers.
 - Trackpad
 - TouchScreen / Stylus (Hyper-v passes as mouse input)
 - macOS 10.13-11
+- Keyboard
+- macOS Installer
 
 
 
 ## What doesn't work
 
-- Graphic Acceleration including 4K support.
+- Graphic Acceleration
 - Audio
-- Brightness Adjustment
 - Power Management
 - Sleep / Wake
-- Thunderbolt
-- Fingerprint Sensor
 - SDcard
-- USB
-- Battery
+- USB passthrough
 - Recovery
 - FileVault
-- Bluetooth
-- Brightness Keys
+- Bluetooth passthrough
+
 
 
 
