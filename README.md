@@ -41,7 +41,7 @@ OpenCore Bootloader boots in Hyper-V and will now boot macOS Installers.
 
 ## Instruction Guides
 
-### [Chapter 1) Installation Guide]
+### [Chapter 1) Installation Guide](https://github.com/balopez83/macOS_On_Hyper-V/blob/main/1-QuickStart.md)
 ### [Chapter 2) Quirks & Fixes]
 ### [Chapter 3) Additional Drivers]
 
