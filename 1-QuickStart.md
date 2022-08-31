@@ -1,6 +1,7 @@
 ##  Chapter 1) Install Guide 
 ## Requires a mac computer, macOS Virtual machine, or Hackintosh to complete this Install Guide. These steps are for a macOS Mojave install but it will work for several macOS versions. Big Sur and newer may need some code changes to work correctly.
 ## I have broken this down into sections as it is very detailed and easy to miss a step. 
+## This guide could go out of date in the future. If you have questions or want to get more information from the source please go to [@acidanthera MacHyperVSupport on Github](https://github.com/acidanthera/MacHyperVSupport)
 
 
 ## Section 1: Creating the Installer
