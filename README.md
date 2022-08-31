@@ -21,8 +21,7 @@ OpenCore Bootloader boots in Hyper-V and will now boot macOS Installers.
 - [ ] Graphics Acceleration Support
 
 ## *** NOTICE ***
-### Guide and support files will be posted as soon as I can squish a few more bugs.
-### This is currently at an Alpha stage but is usable. You must create a Gen2 virtual machine in Hyper-V with a virtual drive. Once created you must partition with a minimum of 2 partitions, 1 of which is your EFI partition. You can copy the EFI folder to the EFI partition. You will need to create an installer drive in order to install macOS on your new VM. Follow the directions [here](https://github.com/acidanthera/MacHyperVSupport) to create your installer.
+### This is currently at an Alpha stage but is usable. 
 
 ## Hyper-V Recommended Settings:
 
