@@ -55,12 +55,14 @@ OpenCore Bootloader boots in Hyper-V and will now boot macOS Installers.
 - macOS 10.13-11
 - Keyboard
 - macOS Installer
+- VESA graphics limited to 1024x768 resolution (non-accelerated)
 
 
 
 ## What doesn't work
 
 - Graphic Acceleration
+- Resolution adjustment (limited to 1024x768 only)
 - Audio
 - Power Management
 - Sleep / Wake
