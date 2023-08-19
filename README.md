@@ -11,8 +11,9 @@ OpenCore Bootloader boots in Hyper-V and will now boot macOS Installers.
 - [X] ~~Install and run macOS 10.14~~
 - [X] ~~Install and run macOS 10.15~~
 - [X] ~~Install and run macOS 11~~
-- [ ] Install and run macOS 12
-- [ ] Install and run macOS 13 (After Release)
+- [X] ~~Install and run macOS 12~~
+- [X] ~~Install and run macOS 13~~
+- [ ] Install and run macOS 14 (After Release)
 - [X] ~~Keyboard Support~~
 - [X] ~~Trackpad Support~~
 - [X] ~~Touchscreen Support~~
@@ -21,7 +22,8 @@ OpenCore Bootloader boots in Hyper-V and will now boot macOS Installers.
 - [ ] Graphics Acceleration Support
 
 ## *** NOTICE ***
-### This is currently at an Alpha stage but is usable. 
+### This is currently at Beta stage but is usable. 
+### Please pay special attention to the installation instructions linked below.
 
 ## Hyper-V Recommended Settings:
 
@@ -52,9 +54,13 @@ OpenCore Bootloader boots in Hyper-V and will now boot macOS Installers.
 - OpenCore Bootloader
 - Trackpad
 - TouchScreen / Stylus (Hyper-v passes as mouse input)
-- macOS 10.13-11
 - Keyboard
 - macOS Installer
+- macOS Recovery
+- macOS Web Recovery
+- Hyper-V Time Sync (with utility)
+- Hyper-V File Sync (with utility)
+- Hyper-V Heartbeat (with utility)
 - VESA graphics limited to 1024x768 resolution (non-accelerated)
 
 
