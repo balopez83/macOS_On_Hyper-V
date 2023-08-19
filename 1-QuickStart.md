@@ -6,7 +6,7 @@
 ## Section 1: Prerequisites.
 
 1. Be sure to install Hyper-V and Virtual Machine Platform through the add Windows Components program on your Windows 10/11 machine
-2. Download the latest UEFI.VHDX from my repo, extract it to a convenient location.
+2. Download the latest UEFI.VHDX zip/7z from my repo, extract it to a convenient location.
 3. Install [Python](https://www.python.org/downloads/).
 4. Download the latest version of OpenCore (we need a tool from this for step 5)
 5. Download the recovery image for the OS version you want to install using the instructions on this [page](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html#downloading-macos). Save the com.apple.recovery.boot folder with the UEFI.VHDX you downloaded earlier.
