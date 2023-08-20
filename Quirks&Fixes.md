@@ -29,7 +29,7 @@ Cpuid1Mask: FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00
 CPU spoofing can also be used if your host computer is an AMD, Pentium, or other incompatible CPU
 
 
-2. You can enable HiDPI mode which adds more resolution options to the list of available display resolutions.
+2. You can enable HiDPI mode which adds more resolution options to the list of available display resolutions. (This will not have an impact until Graphics Accelleration is achieved or when additional resolutions are able to be passed to the macOS VM)
 
 Enter the following command in terminal post-installation then reboot:
 
