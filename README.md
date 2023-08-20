@@ -3,20 +3,11 @@ This repository aims to provide support for macOS on Hyper-V
 
 ## Current State:
 
-OpenCore Bootloader boots in Hyper-V and will now boot macOS Installers. 
-
-- [ ] Install and run macOS 10.4 - 10.6 in 32bit mode
-- [ ] Install and run macOS 10.7 - 10.12
-- [ ] Install and run macOS 10.13
-- [ ] Install and run macOS 10.14
-- [X] ~~Install and run macOS 10.15~~
-- [X] ~~Install and run macOS 11~~
-- [X] ~~Install and run macOS 12~~
-- [X] ~~Install and run macOS 13~~
-- [X] ~~Install and run macOS 14 Beta~~
-- [X] ~~Keyboard Support~~
-- [X] ~~Trackpad Support~~
-- [X] ~~Touchscreen Support~~
+- [X] macOS 10.15 Supported
+- [X] macOS 11 Supported
+- [X] macOS 12 Supported
+- [X] macOS 13 Supported
+- [X] macOS 14 Beta Supported
 - [ ] Audio Support
 - [ ] Power Management Support
 - [ ] Graphics Acceleration Support
