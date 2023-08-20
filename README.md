@@ -42,35 +42,31 @@ This repository aims to provide support for macOS on Hyper-V
 
 ## What works 
 
-- OpenCore Bootloader
-- Trackpad
-- TouchScreen / Stylus (Hyper-v passes as mouse input)
-- Keyboard
-- macOS Installer
-- macOS Recovery
-- macOS Web Recovery
-- Hyper-V Time Sync (with utility)
-- Hyper-V File Sync (with utility)
-- Hyper-V Heartbeat (with utility)
-- VESA graphics limited to 1024x768 resolution (non-accelerated)
+- [x] OpenCore Bootloader
+- [x] Trackpad
+- [x] TouchScreen / Stylus (Hyper-v passes as mouse input)
+- [x] Keyboard
+- [x] macOS Installer
+- [x] macOS Recovery
+- [x] macOS Web Recovery
+- [x] Hyper-V Time Sync (with utility)
+- [x] Hyper-V File Sync (with utility)
+- [x] Hyper-V Heartbeat (with utility)
+- [x] VESA graphics limited to 1024x768 resolution (non-accelerated)
 
 
 
 ## What doesn't work
 
-- Graphic Acceleration
-- Resolution adjustment (limited to 1024x768 only)
-- Audio
-- Power Management
-- Sleep / Wake
-- SDcard
-- USB passthrough
-- FileVault (Untested)
-- Bluetooth passthrough
-
-
-
-
+- [ ] Graphic Acceleration
+- [ ] Resolution adjustment (limited to 1024x768 only)
+- [ ] Audio
+- [ ] Power Management
+- [ ] Sleep / Wake
+- [ ] SDcard
+- [ ] USB passthrough
+- [ ] FileVault (Untested)
+- [ ] Bluetooth passthrough
 
 
 ### Credits
