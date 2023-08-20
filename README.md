@@ -3,7 +3,7 @@ This repository aims to provide support for macOS on Hyper-V
 
 ## Current State:
 
-- [X] macOS 10.15 Supported
+- [X] macOS 10.15 Supported (End of Life)
 - [X] macOS 11 Supported
 - [X] macOS 12 Supported
 - [X] macOS 13 Supported
