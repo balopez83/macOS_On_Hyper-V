@@ -3,16 +3,17 @@ This repository aims to provide support for macOS on Hyper-V
 
 ## Current State Of Support:
 
-- [ ] macOS 10.4 (End of Life)
-- [ ] macOS 10.5 (End of Life)
-- [ ] macOS 10.6 (End of Life)
-- [ ] macOS 10.7 (End of Life)
-- [ ] macOS 10.8 (End of Life)
-- [ ] macOS 10.9 (End of Life)
-- [ ] macOS 10.10 (End of Life)
-- [ ] macOS 10.11 (End of Life)
-- [ ] macOS 10.12 (End of Life)
-- [ ] macOS 10.13 (End of Life)
+- Mac OS X 10.0 - 10.3 are PowerPC based and cannot be installed
+- [ ] macOS 10.4 Tiger (End of Life)
+- [ ] macOS 10.5 Leopard (End of Life)
+- [ ] macOS 10.6 Snow Leopard (End of Life)
+- [ ] macOS 10.7 Lion (End of Life)
+- [ ] macOS 10.8 Mountain Lion (End of Life)
+- [ ] macOS 10.9 Mavericks (End of Life)
+- [ ] macOS 10.10 Yosemite (End of Life)
+- [ ] macOS 10.11 El Capitan (End of Life)
+- [ ] macOS 10.12 Sierra (End of Life)
+- [ ] macOS 10.13 High Sierra (End of Life)
 - [ ] macOS 10.14 Mojave (End of Life)
 - [X] macOS 10.15 Catalina (End of Life)
 - [X] macOS 11 Big Sur
