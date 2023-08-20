@@ -1,13 +1,24 @@
 # macOS Hackintosh on Hyper-V
 This repository aims to provide support for macOS on Hyper-V
 
-## Current State:
+## Current State Of Support:
 
-- [X] macOS 10.15 Supported (End of Life)
-- [X] macOS 11 Supported
-- [X] macOS 12 Supported
-- [X] macOS 13 Supported
-- [X] macOS 14 Beta Supported
+- [ ] macOS 10.4 (End of Life)
+- [ ] macOS 10.5 (End of Life)
+- [ ] macOS 10.6 (End of Life)
+- [ ] macOS 10.7 (End of Life)
+- [ ] macOS 10.8 (End of Life)
+- [ ] macOS 10.9 (End of Life)
+- [ ] macOS 10.10 (End of Life)
+- [ ] macOS 10.11 (End of Life)
+- [ ] macOS 10.12 (End of Life)
+- [ ] macOS 10.13 (End of Life)
+- [ ] macOS 10.14 Mojave (End of Life)
+- [X] macOS 10.15 Catalina (End of Life)
+- [X] macOS 11 Big Sur
+- [X] macOS 12 Monterey
+- [X] macOS 13 Ventura
+- [X] macOS 14 Sonoma Beta
 - [ ] Audio Support
 - [ ] Power Management Support
 - [ ] Graphics Acceleration Support
