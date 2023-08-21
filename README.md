@@ -9,7 +9,7 @@ This repository aims to provide support for macOS on Hyper-V
 - [ ] macOS 10.6 Snow Leopard (End of Life)
 - [ ] macOS 10.7 Lion (End of Life)
 - [X] macOS 10.8 Mountain Lion (End of Life)
-- [ ] macOS 10.9 Mavericks (End of Life)
+- [X] macOS 10.9 Mavericks (End of Life)
 - [ ] macOS 10.10 Yosemite (End of Life)
 - [ ] macOS 10.11 El Capitan (End of Life)
 - [X] macOS 10.12 Sierra (End of Life)
