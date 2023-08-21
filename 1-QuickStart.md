@@ -1,7 +1,7 @@
 ##  Chapter 1) Install Guide 
 ### No longer requires a real mac, hackintosh, or virtual machine to use.
 ### This guide could go out of date in the future. If you have questions or want to get more information from the source please go to [@acidanthera MacHyperVSupport on Github](https://github.com/acidanthera/MacHyperVSupport)
-
+### Note: Legacy 10.4.x - 10.7.x cannot be installed directly. You must first install a newer modern macOS version, download an Acidanthera version of macOS 10.4 - 10.7 from [here](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install-dmg.html) and follow the directions to restore the image to a clean drive you make in Hyper-V. You can follow the below directions for creating the VM and then simply make an additional clean drive for restoring that OS to. Afterwards you can use that drive in its own Hyper-V VM.
 
 ## Section 1: Prerequisites.
 
