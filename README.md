@@ -14,7 +14,7 @@ This repository aims to provide support for macOS on Hyper-V
 - [X] macOS 10.11 El Capitan (End of Life)
 - [X] macOS 10.12 Sierra (End of Life)
 - [X] macOS 10.13 High Sierra (End of Life)
-- [ ] macOS 10.14 Mojave (End of Life)
+- [X] macOS 10.14 Mojave (End of Life)
 - [X] macOS 10.15 Catalina (End of Life)
 - [X] macOS 11 Big Sur
 - [X] macOS 12 Monterey
