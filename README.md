@@ -22,10 +22,11 @@ This repository aims to provide support for macOS on Hyper-V
 - [X] macOS 11 Big Sur
 - [X] macOS 12 Monterey
 - [X] macOS 13 Ventura
-- [X] macOS 14 Sonoma Beta
+- [X] macOS 14 Sonoma
 - [ ] Audio Support
 - [ ] Power Management Support
 - [ ] Graphics Acceleration Support
+- [x] Battery Information Passthrough
 
 ## *** NOTICE ***
 ### This is currently at Beta stage but is usable. 
@@ -68,6 +69,7 @@ This repository aims to provide support for macOS on Hyper-V
 - [x] Hyper-V File Sync (with utility)
 - [x] Hyper-V Heartbeat (with utility)
 - [x] VESA graphics limited to 1024x768 resolution (non-accelerated)
+- [x] Battery Information Passthrough when macOS on Hyper-V is run on laptops
 
 
 
