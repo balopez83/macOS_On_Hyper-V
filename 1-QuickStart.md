@@ -32,22 +32,23 @@
 1. Launch Hyper-V if you closed it.
 2. Right click on your new Hyper-V and click Settings. Change the following settings in order.
 3. Adjust the following: Under Security uncheck "Enable Secure Boot" if its enabled
-4. Adjust the following: Under Processor change the number of Virtual Processors to no more than half of the "Threads" available on your computer. (e.g. a Dual core computer usually has 4 threads and should have 2 virtual cores. More than this may slow down your computer)
-5. Disable Checkpoints otherwise you will have issues later in your Hyper-V use.
-6. Adjust the following: Under SCSI Controller select Hard Drive and click "Add". Click "Browse" under Virtual Hard Disk. Find and select the UEFI.VHDX you downloaded and updated earlier.
-7. Click Apply
-8. Adjust the following: Under Firmware adjust the boot order so the UEFI.VHDX Hard Drive is first and the other Hard Drive is second. If you have a network or other option move those to the end of the list.
-9. Adjust the following: Under Integration Services select all options
-10. Click Apply and then OK
-11. Double Click the new Virtual Machine. A window will open at which point you should click "Start"
-12. Assuming everything has been done correctly you should shortly see the OpenCore boot menu and if not already selected, you should select the macOS recovery and boot it (You may need to press the space bar to expose this option).
-13. This will take awhile but eventually the installer will load. During startup it may appear to freeze at an early boot but it will continue. If it appears to freeze in a later part of the boot process you can click the reset button to restart. It can take up to 5 min to boot so be patient. Depending on the OS you are trying to install you may have to reset it a few times before you have a successful boot.
-14. Once the recovery loads open Disk Utility
-15. Select the "Msft Virtual Disk Media" drive you created earlier (should be blank with no partitions) and format it as APFS with whatever name you want for the partition (e.g. "Macintosh HD"). 
-16. Once formatted, exit Disk Utility
-17. Launch the macOS installer and select your new "macOS" partion you just formatted. Accept the T&C's and keep clicking until it begins to install.
-18. This install will take some time and may have a couple Kernel Panics along the way. Keep letting it reboot and don't stop the Virtual Machine. Eventually the installation will complete and you will be greeted with the Initial personalization set-up screens of your new macOS Hyper-V,
-19. Congratulations and have fun
+4. You may enable or disable TPM as I am unaware of any negative impact on the VM
+5. Adjust the following: Under Processor change the number of Virtual Processors to no more than half of the "Threads" available on your computer. (e.g. a Dual core computer usually has 4 threads and should have 2 virtual cores. More than this may slow down your computer)
+6. Disable Checkpoints otherwise you will have issues later in your Hyper-V use.
+7. Adjust the following: Under SCSI Controller select Hard Drive and click "Add". Click "Browse" under Virtual Hard Disk. Find and select the UEFI.VHDX you downloaded and updated earlier.
+8. Click Apply
+9. Adjust the following: Under Firmware adjust the boot order so the UEFI.VHDX Hard Drive is first and the other Hard Drive is second. If you have a network or other option move those to the end of the list.
+10. Adjust the following: Under Integration Services select all options
+11. Click Apply and then OK
+12. Double Click the new Virtual Machine. A window will open at which point you should click "Start"
+13. Assuming everything has been done correctly you should shortly see the OpenCore boot menu and if not already selected, you should select the macOS recovery and boot it (You may need to press the space bar to expose this option).
+14. This will take awhile but eventually the installer will load. During startup it may appear to freeze at an early boot but it will continue. If it appears to freeze in a later part of the boot process you can click the reset button to restart. It can take up to 5 min to boot so be patient. Depending on the OS you are trying to install you may have to reset it a few times before you have a successful boot.
+15. Once the recovery loads open Disk Utility
+16. Select the "Msft Virtual Disk Media" drive you created earlier (should be blank with no partitions) and format it as APFS with whatever name you want for the partition (e.g. "Macintosh HD"). 
+17. Once formatted, exit Disk Utility
+18. Launch the macOS installer and select your new "macOS" partion you just formatted. Accept the T&C's and keep clicking until it begins to install.
+19. This install will take some time and may have a couple Kernel Panics along the way. Keep letting it reboot and don't stop the Virtual Machine. Eventually the installation will complete and you will be greeted with the Initial personalization set-up screens of your new macOS Hyper-V,
+20. Congratulations and have fun
 
 
 ## Final Notes: 
