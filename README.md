@@ -22,7 +22,8 @@ This repository aims to provide support for macOS on Hyper-V
 - [X] macOS 11 Big Sur (Est End of Life Nov 2023)
 - [X] macOS 12 Monterey
 - [X] macOS 13 Ventura
-- [X] macOS 14 Sonoma
+- [X] macOS 14 Sonoma (Assumed last Intel Version)
+- [ ] macOS 15 ???? (Will this have Intel Support?)
 - [ ] Audio Support
 - [ ] Power Management Support
 - [ ] Graphics Acceleration Support
