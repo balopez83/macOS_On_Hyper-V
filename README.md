@@ -19,7 +19,7 @@ This repository aims to provide support for macOS on Hyper-V
 - [X] macOS 10.13 High Sierra (End of Life)
 - [X] macOS 10.14 Mojave (End of Life)
 - [X] macOS 10.15 Catalina (End of Life)
-- [X] macOS 11 Big Sur
+- [X] macOS 11 Big Sur (Est End of Life Nov 2023)
 - [X] macOS 12 Monterey
 - [X] macOS 13 Ventura
 - [X] macOS 14 Sonoma
