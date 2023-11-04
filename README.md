@@ -38,7 +38,7 @@ This repository aims to provide support for macOS on Hyper-V
 |---|----------|----------|
 |CPU| 2 virtual cores | 4+ virtual cores |
 |GPU| 128 mb graphics ram | 1+ gb graphics ram |
-|RAM| 8 gb | 8+ gb |
+|RAM| 4 gb (10.15 & Older) 8 gb (11+) | 8+ gb |
 |SSD| 30 gb | 60+ gb |
 |WiFi| Default Switch | Default Switch |
 |Batt| N/A | N/A |
