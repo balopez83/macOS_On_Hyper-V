@@ -19,7 +19,7 @@
 1. Launch Hyper-V and create a new Virtual Machine (Don't use Hyper-V Quick Create). 
 3. Name your new virtual machine and if you prefer you may change where it is stored. Click next
 4. Select Generation 2. This won't work with a Generation 1
-5. Increase your startup memory. 2,048 MB is the minimum but 4 or even 8 GB would be prefered. You should leave Dynamic Memory checked. Click Next.
+5. Increase your startup memory. 2gb is the minimum for Catalina and older; 6,144 MB is the minimum for Big Sur and newer; 8 GB or more is prefered for all versions. You should leave Dynamic Memory checked. Click Next.
 6. Click "Connection" drop down and select "Default Switch" 
 7. Name your "Virtual Hard Disk" and change your drive size to a size you prefer. The drive expands up to the max size you select here so keep that in mind when selecting the size. You may change the location of the virtual drive. Click Next
 8. Select "Install an operating system later" and click next
