@@ -1,5 +1,6 @@
 # macOS Hackintosh on Hyper-V
 This repository aims to provide support for macOS on Hyper-V
+## WARNING: Intel CPU's ONLY are currently supported. AMD is not yet supported by the Hyper-V drivers developed by Acidanthera.
 
 ![Ventura-Hyper-V](https://github.com/balopez83/macOS_On_Hyper-V/assets/53441362/5411a4cf-0172-4b1b-9806-95266024d6a7)
 
@@ -28,6 +29,7 @@ This repository aims to provide support for macOS on Hyper-V
 - [ ] Power Management Support
 - [ ] Graphics Acceleration Support
 - [x] Battery Information Passthrough
+- [ ] AMD Not Yet Supported
 
 ## *** NOTICE ***
 ### This is currently at Beta stage but is usable. 
@@ -85,6 +87,7 @@ This repository aims to provide support for macOS on Hyper-V
 - [ ] USB passthrough
 - [ ] FileVault (Untested)
 - [ ] Bluetooth passthrough
+- [ ] AMD Not Supported yet
 
 
 ### Credits
