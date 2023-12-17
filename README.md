@@ -2,7 +2,6 @@
 This repository aims to provide support for macOS on Hyper-V
 ## WARNING: Intel CPU's ONLY are currently supported. AMD is not yet supported by the Hyper-V drivers developed by Acidanthera.
 
-## While I do intend to make updates to this repo to make things easier and avoid too many scripts or the need for WSL, you may want to check out https://github.com/Qonfused/OSX-Hyper-V where there is currently a more developed Hyper-V VM. This does require WSL knowledge but there is detailed instructions to get you through the setup. 
 
 ![Ventura-Hyper-V](https://github.com/balopez83/macOS_On_Hyper-V/assets/53441362/5411a4cf-0172-4b1b-9806-95266024d6a7)
 
@@ -94,4 +93,4 @@ This repository aims to provide support for macOS on Hyper-V
 
 ### Credits
 
-Thanks to [@acidanthera](https://github.com/acidanthera) for creating the software, kexts, and patches, required to even begin to make this possible. I take no credit for any of this development and only seek to make an easy to use method for getting macOS running on Hyper-V. You can find original sources at the following links: [OpenCore Bootloader](https://github.com/acidanthera/OpenCorePkg) & [Hyper-V Support](https://github.com/acidanthera/MacHyperVSupport). 
+Thanks to [@acidanthera](https://github.com/acidanthera) for creating the software, kexts, and patches, required to even begin to make this possible. I take no credit for any of this development and only seek to make an easy to use method for getting macOS running on Hyper-V. You can find original sources at the following links: [OpenCore Bootloader](https://github.com/acidanthera/OpenCorePkg) & [Hyper-V Support](https://github.com/acidanthera/MacHyperVSupport).
