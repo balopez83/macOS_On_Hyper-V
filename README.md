@@ -25,7 +25,7 @@ This repository aims to provide support for macOS on Hyper-V
 - [X] macOS 12 Monterey
 - [X] macOS 13 Ventura
 - [X] macOS 14 Sonoma
-- [ ] macOS 15 ???? (Will this have Intel Support?)
+- [ ] macOS 15 
 - [ ] Audio Support
 - [ ] Power Management Support
 - [ ] Graphics Acceleration Support
