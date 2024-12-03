@@ -1,5 +1,9 @@
 # macOS Hackintosh on Hyper-V
 This repository aims to provide support for macOS on Hyper-V
+
+## Archived as I no longer have a device capable of testing Hyper-V nor do I have the time to properly maintain this project.
+## https://github.com/Qonfused/OSX-Hyper-V has a project that supports autobuilding and is more actively maintained. I recommend using that project instead.
+
 ## WARNING: Intel "i" series CPU's ONLY are currently supported. Xeon, Pentioum, Celeron and AMD CPU's are not yet supported by the Hyper-V drivers developed by Acidanthera.
 
 
